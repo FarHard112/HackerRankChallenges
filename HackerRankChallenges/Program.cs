@@ -50,6 +50,31 @@ namespace HackerRankChallenges
 
 
 
+        // Given five positive integers, find the minimum and maximum values that can be calculated
+        // by summing exactly four of the five integers.Then print the respective minimum and maximum
+        // values as a single line of two space-separated long integers.
 
+        #region #2
+
+        //public static void miniMaxSum(List<int> arr)
+        //{
+        //    int minValue = arr.Max();
+        //    int sumOfAllNumbers = 0;
+        //    int maxValue = 0;
+        //    for (int i = 0; i < 5; i++)
+        //    {
+        //        sumOfAllNumbers += arr[i];
+        //        if (arr[i] < minValue)
+        //        {
+        //            minValue = arr[i];
+        //        }
+        //        if (arr[i] > maxValue)
+        //        {
+        //            maxValue = arr[i];
+        //        }
+        //    }
+        //    Console.Write("{0} {1}", sumOfAllNumbers - maxValue, sumOfAllNumbers - minValue);
+        //}
+        #endregion
     }
 }
